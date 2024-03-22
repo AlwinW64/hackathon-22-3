@@ -1,0 +1,53 @@
+.header {
+    display: flex;
+    align-items: center;
+    background-image: url('/images/w2\ cut1.jpg');
+    background-size: cover;
+    height: 100px; /* Adjust the height as needed */
+  }
+  
+  .left-section,
+  .center-section,
+  .right-section {
+    height: 100%; /* Ensure all sections have the same height */
+  }
+  
+  .left-section {
+    width: 25%; /* Adjust the width as needed */
+  }
+  
+  .center-section {
+    width: 50%; /* Adjust the width as needed */
+    text-align: center; /* Align navigation items to the center */
+  }
+  
+  .right-section {
+    width: 25%; /* Adjust the width as needed */
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline-block; /* Display navigation items horizontally */
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white; /* Add a border to the navigation items */
+  padding: 5px 10px; /* Add padding for better spacing */
+  opacity: 0.8; /* Adjust the opacity as needed (0.0 to 1.0) */
+  transition: opacity 0.3s ease;
+  }
+
+  nav ul li a:hover {
+    opacity: 1; /* Increase opacity on hover */
+  }
+  
